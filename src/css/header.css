@@ -1,0 +1,29 @@
+.bottom-header {
+  background: url('/images/header-bg-1.png') no-repeat bottom center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  opacity: 0.95;
+  z-index: 1; 
+}
+
+header {
+  position: relative;
+  z-index: 2;
+}
+
+#logo_image{
+   margin-left: 90px;
+}
+
+#bgclr{
+   background-color: #fdf3da;
+}
+
+#navbgclr{
+   background-color: #fdf3da;
+}
+

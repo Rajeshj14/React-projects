@@ -1,0 +1,65 @@
+.imgfortext{
+    position: absolute;
+    top: 236px;
+    left: 220px;
+    height: 265px;
+}
+
+.imgforrocket{
+    position: absolute;
+    top: 308px;
+    left: 510px;
+    height: 72px;
+    animation: floatSide 4s ease-in-out infinite alternate;
+}
+
+@keyframes floatSide {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(20px); 
+  }
+  100% {
+    transform: translateX(0px); 
+  }
+}
+
+.imgforlocation{
+    position: absolute;
+    left: 832px;
+    top: 202px;
+    height: 519px;
+}
+
+#booking{
+    position: absolute;
+    left: 973px;
+    height: 337px;
+    width: 352px;
+    top: 319px;
+    background-color: none;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slideInRight {
+  animation: slideInRight 0.5s ease-out forwards;
+}
+
+#btn{
+    cursor: pointer;
+}
+
+#btntxt{
+    cursor: text;
+}
